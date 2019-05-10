@@ -1,0 +1,493 @@
+﻿h1, h2, h3, h4, h5, h6, a, p, #myName, #portfolio, #lastName {
+    font-family: Calibri;
+}
+
+body {
+    direction: rtl;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-position: top;
+}
+
+#container
+{
+    margin: 0px auto;
+    width: 960px;
+}
+
+
+/*-------------------------------------------------Global----------------------------------------------------------*/
+
+article 
+{
+    background-color: #F8F8F8;
+}
+
+section 
+{
+    display: inline-block;
+    width: 960px;
+    height: 400px;
+}
+
+section p 
+{
+    font-size: 14pt;
+    line-height: 1.2;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+
+h1 {
+    color: #F7DB61;
+    font-size: 28pt;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 30px 0px;
+
+}
+
+h1::after 
+{
+    content: '';
+    display: block;
+    background-color: #16EAFD;
+    width: 100px;
+    height: 4px;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+
+h1:hover::after 
+{
+    width: 150px;
+}
+
+
+h2 {
+    color: #FF6767;
+    font-size: 22pt;
+    padding-top: 20px;
+}
+
+h3 
+{
+    font-size: 28pt;
+    color: #FF6767;
+    padding-top: 20px;
+}
+
+li 
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+audio 
+{
+    width: 300px;
+    margin: 50px 330px;
+}
+
+
+/*-----------------------------------------------Navigation_Bar--------------------------------------------------------*/
+
+nav 
+{
+    width: 960px;
+    height: 50px;
+}
+
+nav ul li 
+{
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+    padding-right: 40px;
+    font-size: 13.5pt;
+    font-weight: 500;
+}
+
+nav a:hover 
+{
+    color: #faca0c;
+}
+
+nav a:hover::after 
+{
+    content: '';
+    display: block;
+    background-color: #16EAFD;
+    height: 2px;
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+
+.navCurrent 
+{
+    color: #FF6767;
+}
+
+.navCurrent::after
+{
+    content: '';
+    display: block;
+    background-color: #16EAFD;
+    height: 2px;
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+
+#homePageLink
+{
+    float: right;
+}
+    
+#homePageLink a 
+{
+    font-weight: bold;
+    font-size: 24pt;
+    color: #FF6767;
+    padding-top: 10px;
+    padding-right: 0px;
+    text-align: right;
+}
+
+#lastName 
+{
+    color: #faca0c;
+}
+
+#portfolio 
+{
+    font-weight: 200;
+    font-size: 14pt;
+    font-weight: 500;
+    color: black;
+}
+
+/*-------------------------------------------------Home_Page----------------------------------------------------------*/
+
+/*------------------Header--------------------*/
+
+
+#aboutMe 
+{
+    background-image: url(../images/me2.jpg);
+    background-repeat: no-repeat;
+    background-size: 960px;
+    background-position: top;
+}
+
+#aboutMe header
+{
+    color: white;
+    display: inline-block;
+    width: 470px;
+    height: 180px;
+    margin-top: 100px;
+    margin-right:80px;
+    font-size: 24pt;
+}
+
+#aboutMe h1 
+{
+    font-size: 54pt;
+    display: inline-block;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#aboutMe h1::after
+{
+    background-color: #F7DB61;
+}
+
+#myName
+{
+    display: inline-block;
+    font-size: 36pt;
+}
+
+
+#aboutMe header p
+{
+    margin-top: 15px;
+}
+
+
+.clickHere 
+{
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    border: 3px solid #16EAFD;
+    margin-top: 20px;
+    -webkit-border-radius: 300px;
+    border-radius: 300px;
+    font-weight: 600;
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.4s ease;
+    -ms-transition: background 0.4s ease;
+    -o-transition: background 0.4s ease;
+    transition: background 0.4s ease;
+}
+
+.clickHere:hover 
+{
+    background-color: white;
+    color: #faca0c;
+    border: 3px solid white;
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.4s ease;
+    -ms-transition: background 0.4s ease;
+    -o-transition: background 0.4s ease;
+}
+
+
+/*------------------Section_myWork--------------------*/
+
+#aboutMe section 
+{
+    background-color: #F7DB61;
+    margin-top: 350px;
+    height: 1250px;
+}
+
+#aboutMe section li
+{
+    height: 350px; 
+    margin: 30px 45px 0px 40px;
+}
+
+#aboutMe section h2 
+{
+    font-size: 36pt;
+    color: white;
+    text-align: center;
+}
+
+#aboutMe section h2::after 
+{
+    content: '';
+    display: block;
+    background-color: #16EAFD;
+    width: 100px;
+    height: 4px;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+
+#aboutMe section h2:hover::after 
+{
+    width: 150px;
+}
+
+#aboutMe section li img 
+{
+    display: block;
+    width: 300px;
+    border: 5px dashed white;
+    -webkit-border-radius: 300px;
+    border-radius: 300px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#aboutMe section img:hover
+{
+    width: 350px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#lichildren img
+{
+    float: left;
+}
+
+#lifrida img
+{
+    background-position: top;
+    float: right;
+}
+
+#linewyear img
+{
+    background-position: center;
+    float: left;
+}
+
+#aboutMe section p
+{
+    font-size: 22pt;
+    width: 470px;
+    color: white;
+    padding: 0px;
+}
+
+#lifrida h3, #lifrida p 
+{
+    margin-right: 375px;
+}
+
+/*------------------Footer--------------------*/
+
+footer 
+{
+    width: 960px;
+    height: 170px;
+    border-top: 7px dashed #16EAFD;
+}
+
+footer h2 
+{
+    text-align: center;
+    padding: 25px 0px;
+}
+
+footer h3 
+{
+    font-size: 16pt;
+}
+
+footer li 
+{
+    display: inline-block;
+    width: 307px;
+    height: 70px;
+    text-align: center;
+    border-left: 4px dashed #16EAFD;
+}
+
+footer h3
+{
+    padding-bottom: 10px;
+    padding-top: 0px;
+    
+}
+
+#socialMedia
+{
+    border: none;
+    vertical-align: top;
+}
+
+footer img
+{
+    width: 30px;
+}
+
+#socialMedia li 
+{
+    border: none;
+    width: 40px;
+}
+
+/*-------------------------------------------------Children-Games_Page----------------------------------------------------------*/
+
+.description 
+{
+    width: 450px;
+    padding-top: 50px;
+}
+
+#insparetion .description, #youtube, #photoLeft 
+{
+    float: left;
+}
+
+
+#youtubeSection 
+{
+    height: 350px;
+}
+
+.watchTheYoutube
+{
+    padding-top: 110px;
+    padding-right: 10px;
+}
+
+
+.photoLink 
+{
+    position: relative;
+    width: 48%;
+}
+
+a .image 
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(247, 219, 97, 0.9);
+}
+
+.photoLink:hover .overlay 
+{
+    opacity: 1;
+}
+
+.text 
+{
+    color: #fff;
+    font-size: 22pt;
+    font-weight: 600;
+    font-family: Calibri;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/*-------------------------------------------------Happy-New-Year_Page----------------------------------------------------------*/
+
+#santaPhoto
+{
+    width: 70%;
+    margin: 40px auto 0 auto;
+    
+}
+
